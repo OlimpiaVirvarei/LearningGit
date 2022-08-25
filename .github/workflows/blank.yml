@@ -22,12 +22,12 @@ jobs:
     steps:
     
       # Runs a set of commands using the runners shell
-      - name: Print 1
-        run: echo Pipe pregatit
+      - name: Printul nr 1
+        run: echo Pipeline gata de folosit
         
       # Runs a set of commands using the runners shell
-      - name:  Print 1
-        run: echo Pasul 2 printat
+      - name:  Print nr 2
+        run: echo Pipeline gara de printat.
         
   test:
       # The type of runner that the job will run on
@@ -37,9 +37,9 @@ jobs:
       steps:
 
         # Runs a set of commands using the runners shell
-        - name: Test1 1
-          run: echo Teste ostman
+        - name: Test 1 
+          run: echo Teste postman - exercise
 
         # Runs a set of commands using the runners shell
-        - name:  Test2 1
-          run: echo Teste python
+        - name:  Test 2 
+          run: echo Teste python - exercise 2
